@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="CSS_T/styleTD.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container" id="cont">
+      <nav class="nav">
+        <img src="IMG/logoUser.png" alt="" />
+        <h2>Bienvenida</h2>
+        <h2 id="userName">Nombre</h2>
+      </nav>
+      <header class="header">
+        <h1>Lista de tareas del Bootcamp</h1>
+      </header>
+      <aside class="aside">
+        <button class="buttons" id="but1">Añadir a nueva lista</button>
+      </aside>
+      <main class="main">
+        <div id="form" class="addTarea">
+          <input
+            type="text"
+            class="nuevaTarea"
+            placeholder="Ingresa tu nueva tarea"
+            id="Tarea"
+          />
+          <button class="buttons" id="but2">Añadir tarea</button>
+          <div id="error"></div>
+        </div>
+        <div class="listPend">
+          <h2>Mis tareas pendientes:</h2>
+          <div id="list"></div>
+        </div>
+      </main>
+    </div>
+    <script src="JS_T/js_TD.js"></script>
+  </body>
+</html>
